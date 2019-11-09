@@ -26,10 +26,14 @@ roasts = {' photograph ' : ['Those upskirt and downblouse pictures you snipe at 
           ' beach ' : ['Last time you went to the beach they thought a whale got beached'],
           ' dog ': ['Dogs have more personality than you do'],
           ' coffee ': ['You\'ve drank so much coffee that I don\'t need to roast you.'],
-          ' jokes ': ['22'],
-          ' tattoo': ['23'],
-          ' drink': ['24'],
-          ' party ': ['']}
+         ' jokes ': ['Jokes? I got one for you but I don\' have the time, nor the crayons to explain it to you.'],
+          ' tattoo': ['Look, you don\'t gotta worry... I know a guy that can fix that for you, that sorry excuse of a tattoo.',
+                      'I couldn\'t help but notice that you got ink... you sure a child is qualified to give you some doodles?'],
+          ' drink': ['It\'s okay, everyone has a drinking problem at this point. But drinking that... pathetic. My grandmother drinks that to stay '
+                     'sober!'],
+          ' party ': ['25'],
+          'goose': ['Thank you Mr. Goose!'],
+          'geese': ['Thank you Mr. Goose!']}
 
 def Roast(person):
     #TODO
