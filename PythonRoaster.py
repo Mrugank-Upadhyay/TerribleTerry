@@ -6,34 +6,53 @@ import pyperclip
 import random
 # from time import sleep
 
-def Roast(person, age = None):
+def Roast(person):
     #TODO
     roast = []
     for categ in roasts.keys():
         if categ.lower() in person["bio"].lower():
             roast.append(random.choice(roasts[categ]))
-    return '; '.join(roast)
+    return '\n '.join(roast)
 
-n = 10
-roastees = pull.users(n)
+handle = "realDonaldTrump"
+roastees = pull.user(handle)
 
-for person in roastees:
-    pyperclip.copy(Roast(person))
+    pyperclip.copy("Hey " + handle + ", " + Roast(pull.user(handle))
     #pull.send()
     # sleep(10)
 
 
 roasts = {
-        'photography' : [],
-        'beer' : [],
-        'wine' : [],
-        'travelling' : [],
-        'smoking' : [],
-        'reading' : [],
-        'cat' : [],
-        'mates' : [],
-        'friends' : [],
-        'adventure' : [],
+        'photography' : [
+
+        ],
+        'beer' : [
+
+        ],
+        'wine' : [
+
+        ],
+        'travelling' : [
+
+        ],
+        'smoking' : [
+
+        ],
+        'reading' : [
+
+        ],
+        'cat' : [
+
+        ],
+        'mates' : [
+
+        ],
+        'friends' : [
+
+        ],
+        'adventure' : [
+
+        ],
         'fitness' : [],
         'camping' : [],
         'Netflix' : [],
