@@ -2,6 +2,7 @@
 # Later on, this will be integrated into Dyme where if someone you know is near you, it will automatically send them a roast
 
 import pull
+import sys
 import pyperclip
 import random
 # from time import sleep
@@ -41,3 +42,4 @@ def Roast(person):
 
 def main(handle):
     pyperclip.copy("Hey @" + handle + ", " + Roast(pull.user(handle)))
+main(sys.argv[1])
