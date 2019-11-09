@@ -6,7 +6,31 @@ import pyperclip
 import random
 # from time import sleep
 
-roasts = { 'photography' : [], 'beer' : [], 'wine' : [], 'travelling' : [], 'smoking' : [], 'reading' : [], 'cat' : [], 'mates' : [], 'friends' : [], 'adventure' : [], 'fitness' : [], 'camping' : [], 'Netflix' : [], 'beach' : [], 'dog': [], 'adventures': [], 'snapchat': [], 'coffee': [], 'instagram': [], 'IG': [], 'boys': [], 'jokes': [], 'tattoos': [], 'drinking': [], 'party': []}
+roasts = {' photography ' : ['1'], 
+          ' beer ' : ['2'], 
+          ' wine ' : ['3'], 
+          ' travelling ' : ['4'], 
+          ' smoking ' : ['5'], 
+          ' reading ' : ['6'], 
+          ' cat ' : ['7'], 
+          ' mates ' : ['8'], 
+          ' friends ' : ['9'], 
+          ' adventure ' : ['10'], 
+          ' fitness ' : ['11'], 
+          ' camping ' : ['12'], 
+          ' Netflix ' : ['13'], 
+          ' beach ' : ['14'], 
+          ' dog ': ['15'], 
+          ' adventures ': ['16'], 
+          ' snapchat ': ['17'], 
+          ' coffee ': ['18'], 
+          ' instagram ': ['19'], 
+          ' IG ': ['20'], 
+          ' boys ': ['21'], 
+          ' jokes ': ['22'], 
+          ' tattoos ': ['23'], 
+          ' drinking ': ['24'], 
+          ' party ': ['25']}
 def Roast(person):
     #TODO
     roast = []
@@ -18,4 +42,4 @@ def Roast(person):
 
 handle = "realDonaldTrump"
 roastees = pull.user(handle)
-pyperclip.copy("Hey " + handle + ", " + Roast(pull.user(handle))
+pyperclip.copy("Hey @" + handle + ", " + Roast(pull.user(handle)))
