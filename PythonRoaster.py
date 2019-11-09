@@ -39,7 +39,7 @@ def Roast(person):
         if categ.lower() in person["bio"].lower():
             roast.append(random.choice(roasts[categ]))
     if roast == []:
-        roast = ['I would roast you, but there\'s nothing interesting about you']
+        roast = ['I would roast you, but not even my code finds you interesting.']
     return ', '.join(roast)
 
 def main(handle):
