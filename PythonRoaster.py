@@ -6,6 +6,7 @@ import pyperclip
 import random
 # from time import sleep
 
+roasts = { 'photography' : [], 'beer' : [], 'wine' : [], 'travelling' : [], 'smoking' : [], 'reading' : [], 'cat' : [], 'mates' : [], 'friends' : [], 'adventure' : [], 'fitness' : [], 'camping' : [], 'Netflix' : [], 'beach' : [], 'dog': [], 'adventures': [], 'snapchat': [], 'coffee': [], 'instagram': [], 'IG': [], 'boys': [], 'jokes': [], 'tattoos': [], 'drinking': [], 'party': []}
 def Roast(person):
     #TODO
     roast = []
@@ -14,57 +15,7 @@ def Roast(person):
             roast.append(random.choice(roasts[categ]))
     return '\n '.join(roast)
 
+
 handle = "realDonaldTrump"
 roastees = pull.user(handle)
-
-    pyperclip.copy("Hey " + handle + ", " + Roast(pull.user(handle))
-    #pull.send()
-    # sleep(10)
-
-
-roasts = {
-        'photography' : [
-
-        ],
-        'beer' : [
-
-        ],
-        'wine' : [
-
-        ],
-        'travelling' : [
-
-        ],
-        'smoking' : [
-
-        ],
-        'reading' : [
-
-        ],
-        'cat' : [
-
-        ],
-        'mates' : [
-
-        ],
-        'friends' : [
-
-        ],
-        'adventure' : [
-
-        ],
-        'fitness' : [],
-        'camping' : [],
-        'Netflix' : [],
-        'beach' : [],
-        'dog': [],
-        'adventures': [],
-        'snapchat': [],
-        'coffee': [],
-        'instagram': [],
-        'IG': [],
-        'boys': [],
-        'jokes': [],
-        'tattoos': [],
-        'drinking': [],
-        'party': []}
+pyperclip.copy("Hey " + handle + ", " + Roast(pull.user(handle))
