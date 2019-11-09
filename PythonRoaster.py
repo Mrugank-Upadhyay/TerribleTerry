@@ -29,6 +29,7 @@ roasts = {' photograph' : ['Those upskirt and downblouse pictures you snipe at t
                       'I couldn\'t help but notice that you got ink... you sure a child is qualified to give you some doodles?'],
           ' drink': ['It\'s okay, everyone has a drinking problem at this point. But drinking that... pathetic. My grandmother drinks that to stay '
                      'sober!'],
+          'laurier': ['University? You mean Canada\'s largest highschool.'],
           'goose': ['Thank you Mr. Goose!'],
           'geese': ['Thank you Mr. Goose!']}
 
