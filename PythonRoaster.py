@@ -18,18 +18,18 @@ roasts = {' photograph ' : ['Those upskirt and downblouse pictures you snipe at 
                      'Lol, pussy!'],
           ' mates ' : ['8'],
           ' friends ' : ['9'],
-          ' adventure ' : ['10'],
-          ' fitness ' : ['11'],
-          ' Netflix ' : ['13'],
-          ' beach ' : ['14'],
-          ' dog ': ['15'],
-          ' adventures ': ['16'],
-          ' coffee ': ['18'],
-          ' boys ': ['21'],
+          ' adventure ' : ['You consider a walk to the fridge an adventure',
+          'The closest you will ever get to adventure is the rush you get crossing the street'],
+          ' fitness ' : ['You\'re version of \'fitness\' consists of chewing and swallowing'],
+          ' Netflix ' : ['When you watch Netflix, the site crashes because they know you can\'t \'chill\'',
+          'You put the '],
+          ' beach ' : ['Last time you went to the beach they thought a whale got beached'],
+          ' dog ': ['Dogs have more personality than you do'],
+          ' coffee ': ['You\'ve drank so much coffee that I don\'t need to roast you.'],
           ' jokes ': ['22'],
           ' tattoo': ['23'],
           ' drink': ['24'],
-          ' party ': ['25']}
+          ' party ': ['']}
 
 def Roast(person):
     #TODO
