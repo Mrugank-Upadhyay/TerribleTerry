@@ -4,3 +4,6 @@ Terrible Hack is a hackathon in which people hack together terrible ideas. The c
 
 ### Requires
 Python 3.6, pyperclip (from pip3 install)
+
+### Random info
+We used git (obvs), python, pyperclip, twitter, autohotkey, and many more.

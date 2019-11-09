@@ -37,7 +37,7 @@ def Roast(person):
     for categ in roasts.keys():
         if categ.lower() in person["bio"].lower():
             roast.append(random.choice(roasts[categ]))
-    return '\n '.join(roast)
+    return ', also '.join(roast)
 
 def main(handle):
     pyperclip.copy("Hey @" + handle + ", " + Roast(pull.user(handle)))

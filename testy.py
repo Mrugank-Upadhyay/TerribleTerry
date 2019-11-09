@@ -8,6 +8,8 @@ def getBio(handle):
     mystr = mybytes.decode("utf8")
     fp.close()
 
-    return (mystr[4690:4990])
+    bioStart = 4690
+    bioEnd = 4990
+    return (mystr[bioStart : bioEnd])
 
 
