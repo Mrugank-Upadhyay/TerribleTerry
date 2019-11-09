@@ -38,7 +38,9 @@ def Roast(person):
     for categ in roasts.keys():
         if categ.lower() in person["bio"].lower():
             roast.append(random.choice(roasts[categ]))
-    return ', also '.join(roast)
+    if roast == []:
+        roast = ['I would roast you, but there\'s nothing interesting about you']
+    return ', '.join(roast)
 
 def main(handle):
     pyperclip.copy("Hey @" + handle + ", " + Roast(pull.user(handle)))
