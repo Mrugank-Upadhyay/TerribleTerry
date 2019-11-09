@@ -39,7 +39,5 @@ def Roast(person):
             roast.append(random.choice(roasts[categ]))
     return '\n '.join(roast)
 
-
-handle = "realDonaldTrump"
-roastees = pull.user(handle)
-pyperclip.copy("Hey @" + handle + ", " + Roast(pull.user(handle)))
+def main(handle):
+    pyperclip.copy("Hey @" + handle + ", " + Roast(pull.user(handle)))
