@@ -16,8 +16,6 @@ roasts = {' photograph ' : ['Those upskirt and downblouse pictures you snipe at 
           ' read' : ['If we were in the maze together, I\'d push you into a Griever!'],
           ' cat ' : ['Cat lover eh? How does it feel to be ignored all day?',
                      'Lol, pussy!'],
-          ' mates ' : ['8'],
-          ' friends ' : ['9'],
           ' adventure ' : ['You consider a walk to the fridge an adventure',
           'The closest you will ever get to adventure is the rush you get crossing the street'],
           ' fitness ' : ['You\'re version of \'fitness\' consists of chewing and swallowing'],
@@ -31,7 +29,6 @@ roasts = {' photograph ' : ['Those upskirt and downblouse pictures you snipe at 
                       'I couldn\'t help but notice that you got ink... you sure a child is qualified to give you some doodles?'],
           ' drink': ['It\'s okay, everyone has a drinking problem at this point. But drinking that... pathetic. My grandmother drinks that to stay '
                      'sober!'],
-          ' party ': ['25'],
           'goose': ['Thank you Mr. Goose!'],
           'geese': ['Thank you Mr. Goose!']}
 
