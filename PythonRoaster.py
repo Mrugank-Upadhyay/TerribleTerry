@@ -31,7 +31,7 @@ roasts = {' photograph' : ['Those upskirt and downblouse pictures you snipe at t
                      'sober!'],
           'laurier': ['University? You mean Canada\'s largest highschool.'],
           'goose': ['Thank you Mr. Goose!'],
-          'geese': ['Thank you Mr. Goose!']
+          'geese': ['Thank you Mr. Goose!'],
          'Trump': ['Trump Water? Failed \n Trump Airlines? Failed\n Trump Casinos? Failed \n Trump Magazine? Failed \n Murica? Failed \n Hotel? Trivago']
          }
 
