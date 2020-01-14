@@ -33,7 +33,7 @@ roasts = {' photograph' : ['Those upskirt and downblouse pictures you snipe at t
           'goose': ['Thank you Mr. Goose!'],
           'geese': ['Thank you Mr. Goose!'],
          'Trump': ['Trump Water? Failed \n Trump Airlines? Failed\n Trump Casinos? Failed \n Trump Magazine? Failed \n Murica? Failed \n Hotel? Trivago'],
-          'CSS': ['Html isnt a language or a skills, its a disgrace. CSS doesnt even count as a disgrace.'
+          'CSS': ['Html isnt a language or a skills, its a disgrace. CSS doesnt even count as a disgrace.']
          }
 
 def Roast(person):
